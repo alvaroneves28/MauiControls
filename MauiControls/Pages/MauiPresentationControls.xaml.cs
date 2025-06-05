@@ -1,3 +1,4 @@
+
 namespace MauiControls.Pages;
 
 public partial class MauiPresentationControls : ContentPage
@@ -6,4 +7,6 @@ public partial class MauiPresentationControls : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    
 }
