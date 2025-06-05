@@ -80,7 +80,7 @@
                             BackgroundColor="LightPink"
                             IconImageSource="cock_50.png"
                             Invoked="SwipeItem_Invoked"
-                            Text="Galo" />          
+                            Text="Galo" />
                     </SwipeItems>
                 </SwipeView.LeftItems>
 
@@ -97,12 +97,10 @@
 
                 <!-- Conteúdo principal do SwipeView -->
                 <Grid BackgroundColor="LightGray" HeightRequest="60" WidthRequest="300">
-                    
+
                     <Label HorizontalOptions="Center" Text="&lt;== Deslizar ==>" FontSize="Large" VerticalOptions="Center" />
                 </Grid>
             </SwipeView>
-
-
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

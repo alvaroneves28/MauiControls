@@ -11,7 +11,7 @@ namespace MauiControls
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            var navPage = new NavigationPage(new MauiCommandControls());
+            var navPage = new NavigationPage(new MauiSetValueControls());
 
             return new Window(navPage);
         }
